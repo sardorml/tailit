@@ -1,0 +1,1 @@
+{"id":"mahou-cv","pkg":"mahou-cv","version":"0.1.0","name":"Mahou CV","description":"Clean two-column CV with a pink accent and main/aside layout","accent":"#E16B8C","pages":2,"fonts":[],"notes":"Composable section/item/label markup; uses Libertinus Serif default font."}

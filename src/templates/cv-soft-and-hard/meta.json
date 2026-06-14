@@ -1,0 +1,1 @@
+{"id":"cv-soft-and-hard","pkg":"cv-soft-and-hard","version":"0.1.0","name":"Soft And Hard","description":"Minimalist serif CV with ruled section headers and two-column entries.","accent":"#000000","pages":2,"fonts":[],"notes":"Default black accent; upstream styling.with(accent-color) is broken so bare styling is used."}

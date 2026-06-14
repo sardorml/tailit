@@ -1,0 +1,1 @@
+{"id":"modern-acad-cv","pkg":"modern-acad-cv","version":"0.1.5","name":"Modern Academic CV","description":"Academic CV with teal accent bars and a two-column date layout.","accent":"#579D90","pages":2,"fonts":["Fira Sans","Font Awesome 6 Free","Academicons"],"notes":"Contact icons need FontAwesome/Academicons fonts; layout intact without them."}

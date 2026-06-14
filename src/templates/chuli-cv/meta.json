@@ -1,0 +1,1 @@
+{"id":"chuli-cv","pkg":"chuli-cv","version":"0.1.0","name":"Chuli CV","description":"Minimalist modern CV with accent headings, rule dividers, and skill/language tags","accent":"#007fad","pages":2,"fonts":["Source Sans Pro"],"notes":"Photo and fontawesome icons omitted; date/location rendered via package style helpers to avoid fontawesome 0.1.0's deprecated locate API."}

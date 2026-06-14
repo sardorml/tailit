@@ -1,0 +1,1 @@
+{"id":"typographic-resume","pkg":"typographic-resume","version":"0.2.0","name":"Typographic Resume","description":"Elegant two-column resume with a typographic aside and serif headings.","accent":"#3f454d","pages":1,"fonts":["Libre Baskerville","Roboto","Montserrat"],"notes":"Aside holds contact/skills/languages; main holds work and education."}

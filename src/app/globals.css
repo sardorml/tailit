@@ -1,0 +1,100 @@
+/* Stock Ant Design — no Tailwind. Plain global resets + a few layout helpers
+   that antd doesn't cover (single-viewport pages, thin scrollbars, the dark PDF
+   canvas). All component styling comes from antd. */
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* The antd <App> wrapper sits between <body> and the page tree; let height:100%
+   chains pass through it. */
+.ant-app {
+  height: 100%;
+}
+
+/* Desktop: constrain a page to exactly one viewport (replaces the old Tailwind
+   `lg:h-dvh lg:overflow-hidden`). On small screens the page scrolls naturally. */
+@media (min-width: 1024px) {
+  .screen-lg {
+    height: 100dvh;
+    overflow: hidden;
+  }
+}
+
+/* Thin, unobtrusive scrollbars for chat / preview / template panes. */
+.scrollbar-thin {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0, 0, 0, 0.18) transparent;
+}
+.scrollbar-thin::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+.scrollbar-thin::-webkit-scrollbar-track {
+  background: transparent;
+}
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.18);
+  border-radius: 4px;
+}
+
+/* Homepage template showcase. Above 1024px the page is one viewport (.screen-lg)
+   and the carousel fills the flex-fill remainder. Below 1024px .screen-lg is off,
+   so the flex chain has no definite height to distribute and the carousel would
+   collapse to 0 (it measures its own height to size the A4 cards) — give it a
+   definite min-height there so it always renders and the page scrolls naturally. */
+@media (max-width: 1023.98px) {
+  .tpl-carousel {
+    min-height: 340px;
+  }
+}
+
+/* Hide the scrollbar but keep the element scrollable (homepage carousel). */
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Dark canvas behind the resume preview image (matches a PDF viewer chrome). */
+.pdf-canvas {
+  background-color: #525659;
+}
+
+/* Keyboard focus ring for the raw <button> template cards (carousel + picker).
+   These aren't antd Buttons, so they'd otherwise have no visible focus state.
+   :focus-visible keeps the ring keyboard-only. Stock antd blue (#1677ff). */
+.tpl-card:focus-visible {
+  outline: 2px solid #1677ff;
+  outline-offset: 2px;
+}
+
+/* Infinite slider — a continuous auto-scrolling, drag/swipe/wheel-scrollable
+   strip used by the homepage template showcase (landing/InfiniteSlider.tsx). It
+   is a native horizontal scroll container; a requestAnimationFrame loop nudges
+   scrollLeft each frame and wraps it by one copy's stride (the children are
+   rendered twice) for a seamless loop. Native scroll = touch swipe, wheel and
+   trackpad work for free, and a focused card can scrollIntoView. The auto-scroll
+   pauses on hover / focus / drag (handled in JS) and for prefers-reduced-motion,
+   but the strip always stays manually scrollable. */
+.is-root {
+  cursor: grab;
+}
+.is-root[data-dragging="true"] {
+  cursor: grabbing;
+}
+.is-track {
+  display: flex;
+  width: max-content;
+  flex-shrink: 0; /* keep max-content width so the track overflows and scrolls */
+}

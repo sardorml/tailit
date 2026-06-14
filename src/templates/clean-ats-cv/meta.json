@@ -1,0 +1,1 @@
+{"id":"clean-ats-cv","pkg":"clean-ats-cv","version":"0.1.0","name":"Clean ATS CV","description":"Clean ATS-friendly layout with navy headings and social icons.","accent":"#022359","pages":1,"fonts":["Carlito","DejaVu Sans"],"notes":"Markup-driven conf show rule; needs Carlito/DejaVu Sans (substituted)."}

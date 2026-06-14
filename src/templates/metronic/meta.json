@@ -1,0 +1,1 @@
+{"id":"metronic","pkg":"metronic","version":"1.1.0","name":"Metronic","description":"Clean two-column CV with a colored sidebar and tag-style skills.","accent":"#2F6F8F","pages":1,"fonts":["Inter","Font Awesome 6 Free","Font Awesome 6 Brands"],"notes":"Sidebar holds bio/contact/education/skills; main column has experience/projects."}

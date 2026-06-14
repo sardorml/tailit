@@ -1,0 +1,1 @@
+{"id":"vantage","version":"1.0.0","name":"Vantage","description":"Two-column ATS-friendly layout with an indigo accent.","accent":"#3730a3","pages":1,"fonts":["PT Sans"],"notes":"Vendored locally from @preview/vantage-cv (MIT); bundles PT Sans + icons."}

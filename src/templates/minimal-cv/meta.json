@@ -1,0 +1,1 @@
+{"id":"minimal-cv","pkg":"minimal-cv","version":"0.2.0","name":"Minimal CV","description":"Clean two-column CV with gutter dates and accent section markers.","accent":"#0000b3","pages":2,"fonts":["Inria Sans"],"notes":"@preview/minimal-cv; markup-driven two-column grid."}

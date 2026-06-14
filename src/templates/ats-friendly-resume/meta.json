@@ -1,0 +1,1 @@
+{"id":"ats-friendly-resume","pkg":"ats-friendly-resume","version":"0.1.1","name":"ATS-Friendly Resume","description":"Clean single-column developer resume tuned for ATS parsing.","accent":"#26428b","pages":1,"fonts":["New Computer Modern"],"notes":"Markup-driven; centered header, navy headings, ruled section lines."}

@@ -1,0 +1,1 @@
+{"id":"vercanard","pkg":"vercanard","version":"1.0.3","name":"Vercanard","description":"Colorful two-column CV with a bold header and right sidebar","accent":"#4a7ba6","pages":2,"fonts":["Inria Sans"],"notes":"Markup-driven; aside holds contact/skills/languages/certs."}

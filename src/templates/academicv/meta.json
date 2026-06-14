@@ -1,0 +1,1 @@
+{"id":"academicv","pkg":"academicv","version":"1.1.0","name":"AcademiCV","description":"Clean serif academic CV with a timeline layout and blue links.","accent":"#3278b4","pages":4,"fonts":["Libertinus Serif"],"notes":"Data-driven YAML template; airy timeline layout spans multiple pages."}

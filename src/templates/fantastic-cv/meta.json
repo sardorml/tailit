@@ -1,0 +1,1 @@
+{"id":"fantastic-cv","pkg":"fantastic-cv","version":"0.1.0","name":"Fantastic CV","description":"Comprehensive single-column CV with smallcaps ruled sections, navy accent","accent":"#26428b","pages":2,"fonts":["New Computer Modern"],"notes":"JSON Resume-style sections; summary/skills/languages mapped to custom sections."}

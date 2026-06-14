@@ -1,0 +1,1 @@
+{"id":"simple-technical-resume","pkg":"simple-technical-resume","version":"0.1.1","name":"Simple Technical Resume","description":"Dense one-page ATS-friendly technical resume, Jake's-resume style.","accent":"#333333","pages":1,"fonts":["New Computer Modern"],"notes":"Monochrome, single-column; requires datetime values built in the .typ from date parts."}

@@ -1,0 +1,1 @@
+{"id":"bone-resume","pkg":"bone-resume","version":"0.3.1","name":"Bone Resume","description":"Colorful single-column resume with bordered section boxes and indigo headings.","accent":"#444488","pages":2,"fonts":["Source Han Sans","LXGW WenKai GB","Hack Nerd Font"],"notes":"Header built manually since the package's info helper needs a photo asset."}

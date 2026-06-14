@@ -1,0 +1,1 @@
+{"id":"humanistically","pkg":"humanistically","version":"0.1.0","name":"Humanistically","description":"Clean, minimal academic-style CV with right-aligned section rules","accent":"#222222","pages":2,"fonts":["Cantarell"],"notes":"Monochrome academic CV; headings want the Cantarell font (falls back cleanly)."}

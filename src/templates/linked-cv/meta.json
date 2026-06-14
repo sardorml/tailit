@@ -1,0 +1,1 @@
+{"id":"linked-cv","pkg":"linked-cv","version":"0.1.0","name":"Linked CV","description":"LinkedIn-styled timeline CV with company blocks and accent headers","accent":"#6694A5","pages":2,"fonts":["Roboto","Source Sans Pro"],"notes":"Package sets fallback:false, so we drive it with bundled PT Sans."}

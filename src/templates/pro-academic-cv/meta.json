@@ -1,0 +1,1 @@
+{"id":"pro-academic-cv","pkg":"pro-academic-cv","version":"0.1.0","name":"Pro Academic CV","description":"Professional serif academic CV with centered header and ruled sections.","accent":"#1a405d","pages":2,"fonts":["Palatino"],"notes":"Markup-driven; builds author-info rows and r2c2 entry lists from data."}

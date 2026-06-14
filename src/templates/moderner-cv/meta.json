@@ -1,0 +1,1 @@
+{"id":"moderner-cv","pkg":"moderner-cv","version":"0.2.1","name":"Moderner CV","description":"Clean moderncv-style CV with blue accent bars and social icons","accent":"#3973AF","pages":2,"fonts":["New Computer Modern","Font Awesome 6 Brands","Font Awesome 6 Free"],"notes":"Markup-driven; FontAwesome icons used for contact/social lines."}

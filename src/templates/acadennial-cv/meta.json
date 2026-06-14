@@ -1,0 +1,1 @@
+{"id":"acadennial-cv","pkg":"acadennial-cv","version":"0.1.0","name":"Acadennial CV","description":"Elegant academic CV with a three-column grid and serif typography","accent":"#333333","pages":2,"fonts":["Alegreya","Arial"],"notes":"Academic CV; mapped work/education/projects onto its grid helpers."}

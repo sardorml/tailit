@@ -1,0 +1,1 @@
+{"id":"yuan-resume","pkg":"yuan-resume","version":"0.1.0","name":"Yuan Academic","description":"Elegant academic CV with smallcaps section headings and serif type","accent":"#1a1a1a","pages":2,"fonts":["Sabon LT Std","Calluna","Cronos Pro"],"notes":"Bundled copyrighted fonts are absent; Typst substitutes serif defaults."}

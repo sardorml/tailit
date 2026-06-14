@@ -1,0 +1,1 @@
+{"id":"chicv","pkg":"chicv","version":"0.1.0","name":"Chicv","description":"Minimal monochrome single-column CV with ruled section headers","accent":"#000000","pages":2,"fonts":["Linux Biolinum"],"notes":"Markup-driven minimal template; Linux Biolinum heading font substituted if missing."}

@@ -1,0 +1,1 @@
+{"id":"butterick-resume","pkg":"butterick-resume","version":"0.1.1","name":"Butterick Résumé","description":"Classic monochrome serif resume from Butterick's Practical Typography.","accent":"#1a1a1a","pages":3,"fonts":["Source Serif 4","Source Sans 3"],"notes":"Markup-driven; uppercase serif header, no color accent."}

@@ -1,0 +1,1 @@
+{"id":"toy-cv","pkg":"toy-cv","version":"0.1.0","name":"Toy CV","description":"Colorful two-column CV with a red header banner and icon sidebar.","accent":"#E40019","pages":1,"fonts":["Inter","Font Awesome 6 Free Solid","Font Awesome 6 Brands"],"notes":"Avatar photo optional and omitted; contact icons need Font Awesome (substituted if missing)."}

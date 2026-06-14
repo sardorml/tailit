@@ -1,0 +1,22 @@
+# Render Blueprint — https://render.com/docs/blueprint-spec
+# One-click deploy: Render dashboard → New + → Blueprint → connect sardorml/tailit.
+services:
+  - type: web
+    name: tailit
+    runtime: node
+    plan: free # 512MB RAM / 0.1 CPU; spins down after ~15 min idle
+    region: oregon
+    branch: main
+    # Install pnpm directly via npm — NOT corepack: Node 22's bundled corepack ships
+    # stale npm signing keys and dies with "Cannot find matching keyid" on enable.
+    # devDeps (typescript, eslint-config-next) are needed by `next build`, so do NOT
+    # set NODE_ENV=production here — that would make pnpm skip them and break the build.
+    buildCommand: npm install -g pnpm@10.30.0 && pnpm install --frozen-lockfile && pnpm build
+    startCommand: pnpm start # `next start` binds 0.0.0.0 on Render's $PORT
+    healthCheckPath: /api/health
+    autoDeploy: true
+    envVars:
+      - key: GROQ_API_KEY
+        sync: false # set the value in the Render dashboard (kept out of git)
+      - key: NEXT_PUBLIC_SITE_URL
+        value: https://tailit.xyz # canonical base URL for SEO/OG; change for your own deploy

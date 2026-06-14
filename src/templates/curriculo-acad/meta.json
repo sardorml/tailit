@@ -1,0 +1,1 @@
+{"id":"curriculo-acad","pkg":"curriculo-acad","version":"0.1.1","name":"Curriculo Acad","description":"Academic LATTES-style CV with sectioned headings and gray accents","accent":"#b2b2b2","pages":2,"fonts":["Source Sans 3","Open Sans"],"notes":"LATTES academic template; driven via its exported section builders with a synthesised data dict."}

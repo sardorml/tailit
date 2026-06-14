@@ -1,0 +1,1 @@
+{"id":"minimalistic-latex-cv","pkg":"minimalistic-latex-cv","version":"0.1.1","name":"Minimalistic LaTeX CV","description":"Clean LaTeX-style CV with smallcaps section rules and no color.","accent":"#333333","pages":2,"fonts":["New Computer Modern"],"notes":"Markup-driven; photo omitted, centered header from metadata dict."}

@@ -1,0 +1,1 @@
+{"id":"cobalt-cv","pkg":"cobalt-cv","version":"0.1.0","name":"Cobalt CV","description":"Two-column resume with shaded sidebar, icon contacts, cobalt accent","accent":"#002366","pages":1,"fonts":["Noto Sans","Noto Serif"],"notes":"Markup-driven; sidebar holds education + skills, main column holds work."}

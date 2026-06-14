@@ -1,0 +1,1 @@
+{"id":"clean-print-cv","pkg":"clean-print-cv","version":"0.1.0","name":"Clean Print CV","description":"Print-friendly single-column CV with deep-blue accent bars, B&W-safe.","accent":"#2b4c7e","pages":2,"fonts":["New Computer Modern"],"notes":"Markup-driven; zero color fills, ATS-friendly single column."}

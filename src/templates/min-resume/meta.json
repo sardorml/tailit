@@ -1,0 +1,1 @@
+{"id":"min-resume","pkg":"min-resume","version":"0.2.0","name":"Minimal Resume","description":"Plain black-on-white sans-serif resume tuned for ATS and HR scanning","accent":"#333333","pages":2,"fonts":["TeX Gyre Heros","TeX Gyre Adventor","Century Gothic"],"notes":"Markup-driven; photo and letter omitted, LinkedIn rendered as QR code."}

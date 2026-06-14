@@ -1,0 +1,1 @@
+{"id":"finely-crafted-cv","pkg":"finely-crafted-cv","version":"0.3.0","name":"Finely Crafted CV","description":"Elegant monochrome serif CV with dotted-leader company headings.","accent":"#1a1a1a","pages":4,"fonts":["Libertinus Serif"],"notes":"Markup-driven; contact header uses text labels in place of SVG icons."}

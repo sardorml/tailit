@@ -1,0 +1,1 @@
+{"id":"resumania","pkg":"resumania","version":"1.0.0","name":"Resumania","description":"Minimalist single-column resume with bold section headers.","accent":"#333333","pages":1,"fonts":["Open Sans"],"notes":"ATS-friendly black-and-white layout; Open Sans substituted if missing."}

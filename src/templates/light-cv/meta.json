@@ -1,0 +1,1 @@
+{"id":"light-cv","pkg":"light-cv","version":"0.2.1","name":"Light CV","description":"Minimalist CV with a bold header, ruled sections and cyan accents.","accent":"#007fad","pages":2,"fonts":["Source Sans Pro","New Computer Modern Sans","Font Awesome 6 Brands","Font Awesome 6 Free"],"notes":"Profile photo and entry logos skipped (passed none) so no image assets needed."}

@@ -1,0 +1,1 @@
+{"id":"rendercv","pkg":"rendercv","version":"0.3.0","name":"RenderCV","description":"Clean academic/engineering CV with sectioned entries and a partial-line header","accent":"#004f90","pages":2,"fonts":["Source Sans 3"],"notes":"Markup-driven; headings emitted at top level so its group-sections picks them up."}

@@ -1,0 +1,1 @@
+{"id":"kiresume","pkg":"kiresume","version":"0.1.17","name":"Kiresume","description":"Clean single-column resume with navy headers and section dividers","accent":"#1a3c6e","pages":2,"fonts":["Noto Sans"],"notes":"Data-driven: sections of subsections; dates as year/month dicts."}

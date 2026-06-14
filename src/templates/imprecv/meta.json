@@ -1,0 +1,1 @@
+{"id":"imprecv","pkg":"imprecv","version":"1.0.1","name":"Imprecv","description":"No-frills single-column CV with underlined section headings.","accent":"#000000","pages":4,"fonts":["Linux Libertine","IBM Plex Mono","Consolas"],"notes":"Data-driven YAML template; dates normalized and section bodies made none-safe in adapter/typ."}

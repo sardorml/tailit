@@ -1,0 +1,1 @@
+{"id":"clickworthy-resume","pkg":"clickworthy-resume","version":"1.0.1","name":"Clickworthy Resume","description":"Clean, ATS-friendly resume with smallcaps headings and linked contacts","accent":"#26428b","pages":2,"fonts":["New Computer Modern"],"notes":"Markup-driven; contacts render as linked row, degrees as level/field pairs."}

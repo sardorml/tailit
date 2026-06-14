@@ -1,0 +1,1 @@
+{"id":"brilliant-cv","pkg":"brilliant-cv","version":"4.0.1","name":"Brilliant CV","description":"Modular sky-blue CV with icon contact line and accent section titles.","accent":"#0395DE","pages":2,"fonts":["Source Sans 3","Roboto","Font Awesome 6 Free","Font Awesome 6 Brands"],"notes":"Photo column disabled; contact icons need Font Awesome fonts (Typst substitutes)."}

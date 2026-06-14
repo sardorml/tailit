@@ -1,0 +1,1 @@
+{"id":"lavandula","pkg":"lavandula","version":"0.1.1","name":"Lavandula","description":"Modern two-column resume with a tinted sidebar and accent headings.","accent":"#414cc8","pages":1,"fonts":["Fira Sans","Font Awesome 6 Free","Font Awesome 6 Brands"],"notes":"Sidebar holds contact/skills/languages; skill-levels flag bars omitted to avoid image assets."}

@@ -1,0 +1,1 @@
+{"id":"calligraphics","pkg":"calligraphics","version":"1.0.0","name":"Calligraphics","description":"Two-column resume with a generative colorful triangle accent panel.","accent":"#a658b8","pages":1,"fonts":["Inria Sans","Source Sans Pro"],"notes":"Markup-driven; left aside holds skills/languages, right column the rest."}

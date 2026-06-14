@@ -1,0 +1,1 @@
+{"id":"jsume","pkg":"jsume","version":"0.1.0","name":"JSume","description":"Clean serif single-column JSON Resume template with smallcaps section rules","accent":"#1a1a1a","pages":2,"fonts":["Libertinus Serif","Symbols Nerd Font"],"notes":"Data-driven; Nerd Font icons fall back to boxes when font is missing."}
