@@ -20,3 +20,7 @@ services:
         sync: false # set the value in the Render dashboard (kept out of git)
       - key: NEXT_PUBLIC_SITE_URL
         value: https://tailit.xyz # canonical base URL for SEO/OG; change for your own deploy
+      - key: GITHUB_TOKEN
+        sync: false # optional: a GitHub token (no scopes needed) so the landing
+        # page's star count isn't blocked by GitHub's 60/hr-per-IP limit on
+        # Render's shared outbound IP. Set in the dashboard; leave unset to skip.
