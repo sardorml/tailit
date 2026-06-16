@@ -1,14 +1,38 @@
 "use client";
 
 import Link from "next/link";
-import { ArrowRightOutlined, ScissorOutlined } from "@ant-design/icons";
+import { useEffect, useState } from "react";
+import { ArrowRightOutlined, GithubOutlined, ScissorOutlined, StarOutlined } from "@ant-design/icons";
 import { Button, Flex, Layout, Typography, theme } from "antd";
 import TemplateCarousel from "@/components/landing/TemplateCarousel";
+import { GITHUB_URL } from "@/lib/site";
 
 const { Title, Text, Paragraph } = Typography;
 
+/** Compact star count, e.g. 1234 -> "1.2k". */
+function formatStars(n: number): string {
+  return n >= 1000 ? `${(n / 1000).toFixed(1)}k` : `${n}`;
+}
+
 export default function Home() {
   const { token } = theme.useToken();
+  const [stars, setStars] = useState<number | null>(null);
+
+  // Live GitHub star count via our cached /api/stars route (no per-visitor
+  // GitHub rate-limit). Stays null on failure, so the buttons just omit it.
+  useEffect(() => {
+    let active = true;
+    fetch("/api/stars")
+      .then((r) => r.json())
+      .then((d) => {
+        if (active && typeof d?.stars === "number") setStars(d.stars);
+      })
+      .catch(() => {});
+    return () => {
+      active = false;
+    };
+  }, []);
+
   return (
     // On desktop the whole page fits one viewport (no scroll); on small
     // screens it falls back to natural height and scrolls.
@@ -28,9 +52,20 @@ export default function Home() {
           <ScissorOutlined style={{ fontSize: 20, color: token.colorPrimary }} />
           tailit
         </Flex>
-        <Link href="/build">
-          <Button>Open the builder</Button>
-        </Link>
+        <Flex align="center" gap={8}>
+          <Button
+            href={GITHUB_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            icon={<GithubOutlined />}
+            style={{ fontWeight: 600 }}
+          >
+            GitHub
+          </Button>
+          <Link href="/build">
+            <Button>Open the builder</Button>
+          </Link>
+        </Flex>
       </Flex>
 
       {/* Center column — hero (natural height) above a template showcase that
@@ -83,17 +118,27 @@ export default function Home() {
             interview builds your profile; pick a template; download a clean
             PDF.
           </Paragraph>
-          <Flex align="center" justify="center" gap={12} style={{ marginTop: 18 }}>
+          <Flex align="center" justify="center" wrap gap={12} style={{ marginTop: 18 }}>
             <Link href="/build">
               <Button
                 type="primary"
                 size="large"
                 icon={<ArrowRightOutlined />}
-                iconPosition="end"
+                iconPlacement="end"
               >
                 Get started
               </Button>
             </Link>
+            <Button
+              size="large"
+              href={GITHUB_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              icon={<StarOutlined />}
+              style={{ fontWeight: 600 }}
+            >
+              Star on GitHub{stars != null ? ` (${formatStars(stars)})` : ""}
+            </Button>
           </Flex>
           <Text type="secondary" style={{ marginTop: 8, fontSize: 12 }}>
             No sign-up. No credit card.
