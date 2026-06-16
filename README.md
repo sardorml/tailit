@@ -21,8 +21,6 @@ ATS-friendly PDF. Free, open-source, and your data never leaves your browser.
 
 <img src=".github/banner.png" alt="tailit — paste a job link and AI tailors your resume to match" width="100%" />
 
-<br />
-
 </div>
 
 - **Free & open-source LLM** — runs on [Groq](https://groq.com)'s free tier (Llama 3.3 70B for reasoning, Llama 3.1 8B for fast tasks; any Groq-hosted open model works). No credit card.
