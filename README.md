@@ -1,8 +1,27 @@
-# tailit — AI resume builder & tailoring
+<div align="center">
 
-Paste a link to a job, and AI rewrites your resume to match it — surfacing your real experience
-and the keywords the role asks for. An AI interview builds your profile (or import an existing
-resume), pick from 65 templates, and export a clean, ATS-friendly PDF.
+<img src=".github/logo.png" alt="tailit" width="96" height="96" />
+
+# tailit
+
+**Tailor your resume to any job in minutes.**
+
+Paste a job link and AI rewrites your resume to match — surfacing your real experience and the
+right keywords. An AI interview builds your profile; pick from 65 templates; export a clean,
+ATS-friendly PDF. Free, open-source, and your data never leaves your browser.
+
+[**Website**](https://tailit.xyz) · [**Try it**](https://tailit.xyz/build) · [**Report a bug**](https://github.com/sardorml/tailit/issues) · [**@sardorml**](https://x.com/sardorml)
+
+[![MIT License](https://img.shields.io/github/license/sardorml/tailit?color=1677ff)](./LICENSE)
+[![Stars](https://img.shields.io/github/stars/sardorml/tailit?color=1677ff&logo=github&label=stars)](https://github.com/sardorml/tailit/stargazers)
+[![Next.js](https://img.shields.io/badge/Next.js-16-000?logo=nextdotjs&logoColor=white)](https://nextjs.org)
+[![Typst](https://img.shields.io/badge/PDF-Typst-0c8599)](https://typst.app)
+
+<br />
+
+<img src=".github/banner.png" alt="tailit — paste a job link and AI tailors your resume to match" width="100%" />
+
+</div>
 
 - **Free & open-source LLM** — runs on [Groq](https://groq.com)'s free tier (Llama 3.3 70B for reasoning, Llama 3.1 8B for fast tasks; any Groq-hosted open model works). No credit card.
 - **Private** — your resume lives in your browser (`localStorage`). There's no database and no account; text is only sent to the LLM to be rewritten.
