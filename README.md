@@ -57,15 +57,19 @@ Verify your key works: open `http://localhost:3000/api/health?ping=1` — it sho
 
 ## How it works
 
-```
-Onboarding ─┬─ upload PDF/DOCX ──► POST /api/parse ────► LLM ─► JSON Resume (partial)
-            └─ AI interview ─────► POST /api/interview ─► reply + patch ─► fills the gaps
-                                                                     │  (Zustand + localStorage, in-browser)
-Job link / paste ──────────────► POST /api/job ─► Jina Reader → Readability → paste ─► LLM ─► job requirements
-                                                                     │
-Resume + job ──────────────────► POST /api/tailor ─► LLM ─► tailored resume + honest match report
-                                                                     │
-Template gallery ─► live Typst SVG preview ─► download (POST /api/render ─► Typst PDF)
+```mermaid
+flowchart TD
+    U["Upload PDF/DOCX"] -->|"POST /api/parse → LLM"| R(["JSON Resume<br/>in-browser · Zustand + localStorage"])
+    IV["AI interview"] -->|"POST /api/interview → LLM"| R
+
+    J["Job link / paste"] -->|"POST /api/job"| E["Jina Reader → Readability → paste"]
+    E -->|"LLM"| Q["Job requirements"]
+
+    R --> T["POST /api/tailor → LLM"]
+    Q --> T
+    T --> O["Tailored resume<br/>+ honest match report"]
+
+    O --> P["Pick a template"] --> V["Live Typst SVG preview"] --> D["Download PDF<br/>POST /api/render → Typst"]
 ```
 
 - **Stack:** Next.js 16 (App Router) · React 19 · TypeScript · Ant Design v6 · Zustand (`persist`).
