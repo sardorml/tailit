@@ -13,7 +13,6 @@ ATS-friendly PDF. Free, open-source, and your data never leaves your browser.
 [**Website**](https://tailit.xyz) · [**Try it**](https://tailit.xyz/build) · [**Report a bug**](https://github.com/sardorml/tailit/issues) · [**@sardorml**](https://x.com/sardorml)
 
 [![MIT License](https://img.shields.io/github/license/sardorml/tailit?color=1677ff)](./LICENSE)
-[![Stars](https://img.shields.io/github/stars/sardorml/tailit?color=1677ff&logo=github&label=stars)](https://github.com/sardorml/tailit/stargazers)
 [![Next.js](https://img.shields.io/badge/Next.js-16-000?logo=nextdotjs&logoColor=white)](https://nextjs.org)
 [![Typst](https://img.shields.io/badge/PDF-Typst-0c8599)](https://typst.app)
 
